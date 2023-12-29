@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+nav{
+    display: flex;
+}
+nav-2{
+    background-color: white;
+    display: flex;
+}
+.con-1{
+    height:70px;
+    width: 150px;
+    margin-left: 10px;
+}
+.con-2{
+    height:70px;
+    width: 700px;
+    margin-left: 100px; 
+    display: flex;
+    column-gap: 20px;
+}
+.con-3{
+    height:70px;
+    width: 150px;
+    margin-left: 200px;
+    display: flex;
+}
+section{
+    height: 500px;
+}
+.head{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+}
+.Head-Discription{
+    font-size: 20px;
+    padding-top: 8px;
+}
+.maindiv{
+   height: 200px;
+   width: auto;
+}
+.parent-div{
+    width: 900px;
+    height: 180px;
+    column-gap: 20px;
+}
+.maindiv-2{
+    height: 700px;
+    width: 1350px;
+    border: solid;
+}
+.container-1{
+    height: 550px;
+    width: auto;
+    background-image: url(https://patilkaki.com/assets/ch-banner-562ccf82.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#button-1{
+    transform: rotateZ(90deg);
+    position: fixed;
+    top: 300px;
+}
+.container-2{
+    height: 400px;
+    width: auto;
+}
+.container-3{
+    height: 700px;
+    width: auto;
+    display: flex;
+}
+.food-container-1{
+    height: 550px;
+    width: 550px;
+    margin-left: 100px;
+    margin-top: 40px;
+    background-size: cover;
+    background-image: url(https://patilkaki.com/assets/kaki-special-7d53764d.jpeg);
+}
+.food-container-2{
+    height: 550px;
+    width: 650px;
+    margin-left: 20px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sub-food-container-1{
+    width: 280px;
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    margin-top: 10px;
+    background-color: rgb(255, 223, 228);
+}
+.sub-food-container-2{
+    width: 280px;
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    margin-top: 10px;
+    background-color: rgb(208, 245, 245);
+   
+}
+.sub-food-container-3{
+    width: 280px;
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    background-color: rgb(230, 182, 230);
+  
+}
+.sub-food-container-4{
+    width: 280px;
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    background-color: rgb(245, 191, 172);
+}
+.container-4{
+    height: 400px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+.container-5{
+    height: 350px;
+    width: auto;
+    margin-top: 100px;
+   background-color: rgb(226, 236, 233);
+}
+footer{
+    height: 450px;
+    width: auto;
+    background-color: rgb(234, 241, 241);
+    display: flex;
+}
+.div-1{
+    height: 450px;
+    width: 300px;
+    margin-left: 50px;
+}
+.div-1{
+    height: 450px;
+    width: 300px;
+    margin-left: 30px;
+}
+.div-2{
+    height: 450px;
+    width: 300px;
+    margin-left: 30px;
+}
+li{
+    padding-top: 10px;
+}
+li a:hover{
+    color: orangered;
+}
+li a{
+    color: rgb(34, 33, 33);
+}
+.footer-2{
+    height: 50px;
+    width: auto;
+    text-align: center;
+    display: flex;
+}
